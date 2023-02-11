@@ -1,0 +1,5 @@
+To start the Project :
+
+>> Open Anaconda prompt 
+>> Navigate to the loan prediction folder
+>> Run python app.py
