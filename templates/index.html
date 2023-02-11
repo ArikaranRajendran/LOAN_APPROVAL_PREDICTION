@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ LOAN PREDICT & VIZ
+</title>
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    
+<link href="{{url_for('static', filename='new1.css')}}" rel="stylesheet">
+
+</head>
+<div class="white">
+<body align="center" bgcolor="seagreen">  	
+    
+
+ <div>
+ 	<ul class="navi-menu" align="right">
+                <li class="menu">
+                    <a href="#">HOME</a></li>
+                
+               <li class="menu">
+                    <a href="/about">ABOUT US</a></li>
+                
+                <li class="menu">
+                    <a href="/tool">TOOL</a>
+                
+                </li>  
+    </ul>            
+</div>
+
+  <div>
+	<br>
+  </div>
+  <img src="{{url_for('static', filename='logo.jpg')}}" width="300" height="150" alt="picture">   	
+	
+    <div>
+	<h1 font="blue">BANK LOAN PREDICTION & VIZ</h1>
+    </div>	
+
+<br>
+<br>
+<header id="header" class="header">
+    <div class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <a  class="button1" href="/predict"><button>Predict Approval</button cellpadding="1px" cellspacing="1px"></a>
+                            <br>
+                            <div>
+                            	<br>
+                            	<br>
+                            </div>
+                        <a class="button1" href="/visualize"><button>Visualize Data</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</div>
+<br>
+<br>
+<div id=contact class="footer">
+        <div class="container">
+            <div class="row">
+			<img class="card-image" src="{{url_for('static', filename='ari.jpg')}}"  width="150" height="150" alt="alternative">
+
+                <div class="col-md-6">
+                    <div class="text-container about">
+                        <h4>Developed by:</h4>
+                        <h2 class="white">ARIKARAN</h2>
+						<p class="white">BACHELOR STUDENT AT DR.N.G.P ARTS AND SCIENCE COLLEGE</p>
+						<p class="white">Email: arikaran404@gmail.com</p>
+                    
+					</div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <!--<div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Connect</h4>
+                        <ul class="list-unstyled li-space-lg white">
+                            <li>
+                                <a class="white" href="https://www.linkedin.com/in/kunal4g/">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a class="white" href="https://github.com/ikunal95">Github</a>
+                            </li>
+                            <li>
+                                <a class="white" href="https://www.kaggle.com/ikunal4g">Kaggle</a>
+                            </li>
+                        </ul>
+                    </div> end of text-container -->
+                 <!-- end of col -->
+               
+                
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+</body>
+</html>
